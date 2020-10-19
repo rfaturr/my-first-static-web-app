@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>UTS TST CUY</title>
+    <title>UTS TST CUY!</title>
     <!-- Add some CSS to change client UI -->
     <style>
     body {
@@ -38,7 +38,7 @@
                 redirect: 'follow'
             };
             // make API call with parameters and use promises to get response
-            fetch("", requestOptions)
+            fetch("https://func18218019.azurewebsites.net/api/Trigger18218019?code=Co0q4EGXHxdusFjAIGl1TyayifDnmmR31lWBPz3WzXIbcc8pZSTRFg==", requestOptions)
             .then(response => response.text())
             .then(result => alert(JSON.parse(result).name))
             .catch(error => console.log('error', error));
