@@ -47,10 +47,22 @@
 </head>
 <body>
     <form>
-        <label>First Name :</label>
-        <input type="text" id="fName">
-        <label>Last Name :</label>
-        <input type="text" id="lName">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="noHp">Nomor Hp:</label><br>
+      <input type="text" id="noHp" name="noHp"><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <label for="tipe">Tipe:</label><br>
+      <input type="text" id="tipe" name="tipe"><br>
+      <label for="nopolisi">No Polisi:</label><br>
+      <input type="text" id="nopolisi" name="nopolisi"><br>
+      <label for="layanan">layanan:</label><br>
+      <input type="text" id="layanan" name="layanan"><br>
+      <label for="masalah">Masalah:</label><br>
+      <input type="text" id="masalah" name="masalah"><br><br>
         <!-- set button onClick method to call function we defined passing input values as parameters -->
         <button type="button" onclick="callAPI(document.getElementById('fName').value,document.getElementById('lName').value)">Call API</button>
     </form>
