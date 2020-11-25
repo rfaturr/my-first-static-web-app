@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>UTS TST CUY!</title>
+    <title>Form Pemesanan</title>
     <!-- Add some CSS to change client UI -->
     <style>
     body {
@@ -46,13 +46,15 @@
     </script>
 </head>
 <body>
+    <h2>Form Pemesanan Layanan</h2>
+    
     <form>
       <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname"><br>
       <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname"><br>
+        <input type="text" id="lname" name="lname"><br>
       <label for="noHp">Nomor Hp:</label><br>
-      <input type="text" id="noHp" name="noHp"><br>
+        <input type="text" id="noHp" name="noHp"><br>
       <label for="email">Email:</label><br>
       <input type="text" id="email" name="email"><br>
       <label for="tipe">Tipe:</label><br>
@@ -64,7 +66,7 @@
       <label for="masalah">Masalah:</label><br>
       <input type="text" id="masalah" name="masalah"><br><br>
       <!-- set button onClick method to call function we defined passing input values as parameters -->
-      <button type="button" onclick="callAPI(document.getElementById('fName').value,document.getElementById('lName').value)">Call API</button>
+      <button type="button" onclick="callAPI(document.getElementById('fName').value,document.getElementById('lName').value)">Submit</button>
     </form>
 </body>
 </html>
